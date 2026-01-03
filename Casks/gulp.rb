@@ -1,10 +1,10 @@
 cask "gulp" do
-  version "0.1.0"
-  sha256 :no_check # Will be updated by CI
+  version "0.1.1"
+  sha256 "2415bcb1fc7bea8caa3a7b18b89d71a82afa04f3dba654ed870744dba6dbca0c"
 
   url "https://github.com/mnk400/Gulp/releases/download/v#{version}/Gulp-#{version}.dmg"
   name "Gulp"
-  desc "Simple macOS app for gallery-dl with history and log management"
+  desc "Gallery-DL front-end in Swift UI"
   homepage "https://github.com/mnk400/Gulp"
 
   depends_on formula: "gallery-dl"
