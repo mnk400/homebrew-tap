@@ -1,6 +1,6 @@
 cask "gulp" do
-  version "0.1.5"
-  sha256 "4bcdd644072c7ea44dc068bc854a154196ff5b860980e6af52a85897f57cb5fd"
+  version "0.1.6"
+  sha256 "d2439e01cc24b671d54bdc5561fb4ca3607d0d87d77c009722c78770f117c783"
 
   url "https://github.com/mnk400/Gulp/releases/download/v#{version}/Gulp-#{version}.dmg"
   name "Gulp"
