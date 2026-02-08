@@ -1,8 +1,8 @@
 class Rex < Formula
   desc "Dynamic CLI tool that auto-discovers scripts from configured directories"
   homepage "https://github.com/mnk400/rex"
-  url "https://github.com/mnk400/rex/releases/download/v0.0.4/rex-0.0.4.tar.gz"
-  sha256 "9fa3d2dd1d27a059bc8b85b19fa0705b9dd7633fc22f852212e43f06dfa03d9b"
+  url "https://github.com/mnk400/rex/releases/download/v0.0.5/rex-0.0.5.tar.gz"
+  sha256 "ce0ffe9a0cd46d6f58d8d3f10610ae47a198d733dab0dd0948593aa67e46dc28"
   license "MIT"
 
   def install
