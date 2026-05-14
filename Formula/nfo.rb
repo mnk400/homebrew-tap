@@ -1,8 +1,8 @@
 class Nfo < Formula
   desc "Minimal neofetch alternative written in bash"
   homepage "https://github.com/mnk400/nfo"
-  url "https://github.com/mnk400/nfo/releases/download/v0.0.6/nfo-0.0.6.tar.gz"
-  sha256 "2b7f0e2f3e3e761e31025b9924c4e0f67fcfd7b0bc532145352d33c1918c6824"
+  url "https://github.com/mnk400/nfo/releases/download/v0.0.8/nfo-0.0.8.tar.gz"
+  sha256 "e1c4ad53c52e1f40ae6b67aca961af82ff89d4990ea51da7d3ac1250a301aca2"
   license "MIT"
 
   def install
