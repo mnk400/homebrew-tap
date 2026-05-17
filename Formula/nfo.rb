@@ -1,8 +1,8 @@
 class Nfo < Formula
   desc "Minimal neofetch alternative written in bash"
   homepage "https://github.com/mnk400/nfo"
-  url "https://github.com/mnk400/nfo/releases/download/v0.0.12/nfo-0.0.12.tar.gz"
-  sha256 "6e501b2a9e8bb221c1a9bb6a47de6f8e292986921e3e78fbaa4eda85d07b9660"
+  url "https://github.com/mnk400/nfo/releases/download/v0.0.13/nfo-0.0.13.tar.gz"
+  sha256 "45c19a7a296a11ceb38a0f22bf8614f4b20ac78cff86d6418306a34c54a7d61c"
   license "MIT"
 
   def install
@@ -14,16 +14,14 @@ class Nfo < Formula
 
   def caveats
     <<~EOS
-      Configuration files have been installed to:
-        #{share}/nfo
+      On first run, nfo will copy default config and art into:
+        ~/.config/nfo/
 
-      To set up nfo, run:
-        mkdir -p ~/.config/nfo
-        cp -r #{share}/nfo/art ~/.config/nfo/
-        cp #{share}/nfo/nfo.conf ~/.config/nfo/
+      Edit ~/.config/nfo/nfo.conf to customize.
 
-      Upgrading from a previous version? The config format and filename
-      changed (config.conf → nfo.conf). Copy the new nfo.conf above and
+      Upgrading from a pre-nfo.conf version? The config format and
+      filename changed (config.conf → nfo.conf). Remove the old
+      ~/.config/nfo/config.conf, let nfo recreate the defaults, then
       migrate your old print_out() into the new INFO_ROWS array.
     EOS
   end
